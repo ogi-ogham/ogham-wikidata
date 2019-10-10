@@ -188,4 +188,5 @@ ORDER BY (?label)
 | Book | WIKIDATA |
 |-------|----------|
 | Macalister. Corpus Inscriptionum Insularum Celticarum Vol.1 | https://www.wikidata.org/wiki/Q70256237 |
-| McManus. A Guide to Ogam| https://www.wikidata.org/wiki/Q70310399 |
+| McManus. A Guide to Ogam | https://www.wikidata.org/wiki/Q70310399 |
+| McManus. Ogam Stones at University College Cork | https://www.wikidata.org/wiki/Q70383873 |
