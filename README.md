@@ -85,6 +85,8 @@ SELECT * WHERE {
 | CIIC 115 | 2 | https://www.wikidata.org/wiki/Q69383434 |
 | CIIC 117 | 3 | https://www.wikidata.org/wiki/Q69385241 |
 | CIIC 81 | 4 | https://www.wikidata.org/wiki/Q69385424 |
+| CIIC 113 | 5 | https://www.wikidata.org/wiki/Q70382440 |
+| CIIC 116 | 6 | https://www.wikidata.org/wiki/Q70382438 |
 
 ### Stones in Scotland
 
