@@ -183,8 +183,9 @@ ORDER BY (?label)
 | Knockshanawee Ogham Stones | https://www.wikidata.org/wiki/Q69383371 |
 | Ballaqueeny Ogham Stones | https://www.wikidata.org/wiki/Q69387903 |
 
-## Added Books
+## Added (or existing) Books (for references)
 
 | Book | WIKIDATA |
 |-------|----------|
-| Macalister.Corpus Inscriptionum Insularum Celticarum Vol.1 | https://www.wikidata.org/wiki/Q70256237 |
+| Macalister. Corpus Inscriptionum Insularum Celticarum Vol.1 | https://www.wikidata.org/wiki/Q70256237 |
+| McManus. A Guide to Ogam| https://www.wikidata.org/wiki/Q70310399 |
