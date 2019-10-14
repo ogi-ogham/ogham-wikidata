@@ -3426,5 +3426,14 @@
     },
     "shareNewTopics": false,
     "description": "Match item CIIC 154 (Q68002826) for cells containing \"CIIC 154\" in column label_en"
+  },
+  {
+    "op": "wikidata/perform-wikibase-edits",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "summary": "update https://github.com/ogi-ogham/ogham-wikidata/commit/12b85a4ed878e2d39ab9c51def5e125d12967f9e",
+    "description": "Perform Wikibase edits"
   }
 ]
