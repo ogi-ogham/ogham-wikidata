@@ -1,2834 +1,5 @@
 [
   {
-    "op": "wikidata/save-wikibase-schema",
-    "schema": {
-      "itemDocuments": [
-        {
-          "subject": {
-            "type": "wbitemvariable",
-            "columnName": "label_en"
-          },
-          "nameDescs": [
-            {
-              "name_type": "LABEL",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_en"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "label_en"
-                }
-              }
-            },
-            {
-              "name_type": "DESCRIPTION",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_en"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "description_en"
-                }
-              }
-            },
-            {
-              "name_type": "ALIAS",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_en"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "alias_en"
-                }
-              }
-            },
-            {
-              "name_type": "LABEL",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_de"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "label_de"
-                }
-              }
-            },
-            {
-              "name_type": "DESCRIPTION",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_de"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "description_de"
-                }
-              }
-            },
-            {
-              "name_type": "ALIAS",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_de"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "alias_en2"
-                }
-              }
-            }
-          ],
-          "statementGroups": [
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P31",
-                "label": "instance of",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P31"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P361",
-                "label": "part of",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P361"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70873595",
-                            "label": "Ogi Ogam Project"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P17",
-                "label": "country",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P17"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P625",
-                "label": "coordinate location",
-                "datatype": "globe-coordinate"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wblocationvariable",
-                    "columnName": "P625"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P2868",
-                        "label": "subject has role",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemconstant",
-                        "qid": "Q839954",
-                        "label": "archaeological site"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P186",
-                "label": "material used",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P186"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P195",
-                "label": "collection",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P195_1"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemvariable",
-                            "columnName": "P248_C1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P195",
-                "label": "collection",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P195_2"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemvariable",
-                            "columnName": "P248_C2"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P195",
-                "label": "collection",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P195_3"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemvariable",
-                            "columnName": "P248_C3"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P189",
-                "label": "location of discovery",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P189_place"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P189",
-                "label": "location of discovery",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P189_country"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P2043",
-                "label": "length",
-                "datatype": "quantity"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbquantityexpr",
-                    "amount": {
-                      "type": "wbstringvariable",
-                      "columnName": "P2043"
-                    },
-                    "unit": {
-                      "type": "wbitemconstant",
-                      "qid": "Q174728",
-                      "label": "centimetre"
-                    }
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P2048",
-                "label": "height",
-                "datatype": "quantity"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbquantityexpr",
-                    "amount": {
-                      "type": "wbstringvariable",
-                      "columnName": "P2048"
-                    },
-                    "unit": {
-                      "type": "wbitemconstant",
-                      "qid": "Q174728",
-                      "label": "centimetre"
-                    }
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P2049",
-                "label": "width",
-                "datatype": "quantity"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbquantityexpr",
-                    "amount": {
-                      "type": "wbstringvariable",
-                      "columnName": "P2049"
-                    },
-                    "unit": {
-                      "type": "wbitemconstant",
-                      "qid": "Q174728",
-                      "label": "centimetre"
-                    }
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P1684",
-                "label": "inscription",
-                "datatype": "monolingualtext"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbmonolingualexpr",
-                    "language": {
-                      "type": "wblanguageconstant",
-                      "id": "ga",
-                      "label": "ga"
-                    },
-                    "value": {
-                      "type": "wbstringvariable",
-                      "columnName": "P1684"
-                    }
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_I"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_1"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE1"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_2"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE2"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_3"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE3"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_4"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE4"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_5"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE5"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P5816",
-                "label": "state of conservation",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P5816"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "description": "Save Wikibase schema"
-  },
-  {
-    "op": "wikidata/save-wikibase-schema",
-    "schema": {
-      "itemDocuments": [
-        {
-          "subject": {
-            "type": "wbitemvariable",
-            "columnName": "label_en"
-          },
-          "nameDescs": [
-            {
-              "name_type": "LABEL",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_en"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "label_en"
-                }
-              }
-            },
-            {
-              "name_type": "DESCRIPTION",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_en"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "description_en"
-                }
-              }
-            },
-            {
-              "name_type": "ALIAS",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_en"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "alias_en"
-                }
-              }
-            },
-            {
-              "name_type": "LABEL",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_de"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "label_de"
-                }
-              }
-            },
-            {
-              "name_type": "DESCRIPTION",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_de"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "description_de"
-                }
-              }
-            },
-            {
-              "name_type": "ALIAS",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_de"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "alias_en2"
-                }
-              }
-            }
-          ],
-          "statementGroups": [
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P31",
-                "label": "instance of",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P31"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P361",
-                "label": "part of",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P361"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70873595",
-                            "label": "Ogi Ogam Project"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P17",
-                "label": "country",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P17"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P625",
-                "label": "coordinate location",
-                "datatype": "globe-coordinate"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wblocationvariable",
-                    "columnName": "P625"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P2868",
-                        "label": "subject has role",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemconstant",
-                        "qid": "Q839954",
-                        "label": "archaeological site"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P186",
-                "label": "material used",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P186"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P195",
-                "label": "collection",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P195_1"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemvariable",
-                            "columnName": "P248_C1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P195",
-                "label": "collection",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P195_2"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemvariable",
-                            "columnName": "P248_C2"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P195",
-                "label": "collection",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P195_3"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemvariable",
-                            "columnName": "P248_C3"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P189",
-                "label": "location of discovery",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P189_place"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P189",
-                "label": "location of discovery",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P189_country"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P2043",
-                "label": "length",
-                "datatype": "quantity"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbquantityexpr",
-                    "amount": {
-                      "type": "wbstringvariable",
-                      "columnName": "P2043"
-                    },
-                    "unit": {
-                      "type": "wbitemconstant",
-                      "qid": "Q174728",
-                      "label": "centimetre"
-                    }
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P2048",
-                "label": "height",
-                "datatype": "quantity"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbquantityexpr",
-                    "amount": {
-                      "type": "wbstringvariable",
-                      "columnName": "P2048"
-                    },
-                    "unit": {
-                      "type": "wbitemconstant",
-                      "qid": "Q174728",
-                      "label": "centimetre"
-                    }
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P2049",
-                "label": "width",
-                "datatype": "quantity"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbquantityexpr",
-                    "amount": {
-                      "type": "wbstringvariable",
-                      "columnName": "P2049"
-                    },
-                    "unit": {
-                      "type": "wbitemconstant",
-                      "qid": "Q174728",
-                      "label": "centimetre"
-                    }
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P1684",
-                "label": "inscription",
-                "datatype": "monolingualtext"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbmonolingualexpr",
-                    "language": {
-                      "type": "wblanguageconstant",
-                      "id": "ga",
-                      "label": "ga"
-                    },
-                    "value": {
-                      "type": "wbstringvariable",
-                      "columnName": "P1684"
-                    }
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_I"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_1"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE1"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_2"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE2"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_3"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE3"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_4"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE4"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_5"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE5"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P5816",
-                "label": "state of conservation",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P5816"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "description": "Save Wikibase schema"
-  },
-  {
-    "op": "wikidata/save-wikibase-schema",
-    "schema": {
-      "itemDocuments": [
-        {
-          "subject": {
-            "type": "wbitemvariable",
-            "columnName": "label_en"
-          },
-          "nameDescs": [
-            {
-              "name_type": "LABEL",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_en"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "label_en"
-                }
-              }
-            },
-            {
-              "name_type": "DESCRIPTION",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_en"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "description_en"
-                }
-              }
-            },
-            {
-              "name_type": "ALIAS",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_en"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "alias_en"
-                }
-              }
-            },
-            {
-              "name_type": "LABEL",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_de"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "label_de"
-                }
-              }
-            },
-            {
-              "name_type": "DESCRIPTION",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_de"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "description_de"
-                }
-              }
-            },
-            {
-              "name_type": "ALIAS",
-              "value": {
-                "type": "wbmonolingualexpr",
-                "language": {
-                  "type": "wblanguagevariable",
-                  "columnName": "lang_de"
-                },
-                "value": {
-                  "type": "wbstringvariable",
-                  "columnName": "alias_en2"
-                }
-              }
-            }
-          ],
-          "statementGroups": [
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P31",
-                "label": "instance of",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P31"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P361",
-                "label": "part of",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P361"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70873595",
-                            "label": "Ogi Ogam Project"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P17",
-                "label": "country",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P17"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P625",
-                "label": "coordinate location",
-                "datatype": "globe-coordinate"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wblocationvariable",
-                    "columnName": "P625"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P2868",
-                        "label": "subject has role",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemconstant",
-                        "qid": "Q839954",
-                        "label": "archaeological site"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P186",
-                "label": "material used",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P186"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P195",
-                "label": "collection",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P195_1"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemvariable",
-                            "columnName": "P248_C1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P195",
-                "label": "collection",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P195_2"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemvariable",
-                            "columnName": "P248_C2"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P195",
-                "label": "collection",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P195_3"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemvariable",
-                            "columnName": "P248_C3"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P189",
-                "label": "location of discovery",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P189_place"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P189",
-                "label": "location of discovery",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P189_country"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P2043",
-                "label": "length",
-                "datatype": "quantity"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbquantityexpr",
-                    "amount": {
-                      "type": "wbstringvariable",
-                      "columnName": "P2043"
-                    },
-                    "unit": {
-                      "type": "wbitemconstant",
-                      "qid": "Q174728",
-                      "label": "centimetre"
-                    }
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P2048",
-                "label": "height",
-                "datatype": "quantity"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbquantityexpr",
-                    "amount": {
-                      "type": "wbstringvariable",
-                      "columnName": "P2048"
-                    },
-                    "unit": {
-                      "type": "wbitemconstant",
-                      "qid": "Q174728",
-                      "label": "centimetre"
-                    }
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P2049",
-                "label": "width",
-                "datatype": "quantity"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbquantityexpr",
-                    "amount": {
-                      "type": "wbstringvariable",
-                      "columnName": "P2049"
-                    },
-                    "unit": {
-                      "type": "wbitemconstant",
-                      "qid": "Q174728",
-                      "label": "centimetre"
-                    }
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P1684",
-                "label": "inscription",
-                "datatype": "monolingualtext"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbmonolingualexpr",
-                    "language": {
-                      "type": "wblanguageconstant",
-                      "id": "ga",
-                      "label": "ga"
-                    },
-                    "value": {
-                      "type": "wbstringvariable",
-                      "columnName": "P1684"
-                    }
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_I"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_1"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE1"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_2"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE2"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_3"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE3"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_4"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE4"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P6568",
-                "label": "inscription mentions",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P6568_5"
-                  },
-                  "qualifiers": [
-                    {
-                      "prop": {
-                        "type": "wbpropconstant",
-                        "pid": "P518",
-                        "label": "applies to part",
-                        "datatype": "wikibase-item"
-                      },
-                      "value": {
-                        "type": "wbitemvariable",
-                        "columnName": "P518_IE5"
-                      }
-                    }
-                  ],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "property": {
-                "type": "wbpropconstant",
-                "pid": "P5816",
-                "label": "state of conservation",
-                "datatype": "wikibase-item"
-              },
-              "statements": [
-                {
-                  "value": {
-                    "type": "wbitemvariable",
-                    "columnName": "P5816"
-                  },
-                  "qualifiers": [],
-                  "references": [
-                    {
-                      "snaks": [
-                        {
-                          "prop": {
-                            "type": "wbpropconstant",
-                            "pid": "P248",
-                            "label": "stated in",
-                            "datatype": "wikibase-item"
-                          },
-                          "value": {
-                            "type": "wbitemconstant",
-                            "qid": "Q70256237",
-                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "description": "Save Wikibase schema"
-  },
-  {
     "op": "core/recon",
     "engineConfig": {
       "facets": [],
@@ -2845,186 +16,35 @@
         "name": "ogham stone"
       },
       "autoMatch": true,
-      "columnDetails": [
-        {
-          "column": "P31",
-          "propertyName": "instance of",
-          "propertyID": "P31"
-        },
-        {
-          "column": "P361",
-          "propertyName": "part of",
-          "propertyID": "P361"
-        },
-        {
-          "column": "P17",
-          "propertyName": "country",
-          "propertyID": "P17"
-        },
-        {
-          "column": "P625",
-          "propertyName": "coordinate location",
-          "propertyID": "P625"
-        },
-        {
-          "column": "P186",
-          "propertyName": "material used",
-          "propertyID": "P186"
-        },
-        {
-          "column": "P195_1",
-          "propertyName": "collection",
-          "propertyID": "P195"
-        },
-        {
-          "column": "P195_2",
-          "propertyName": "collection",
-          "propertyID": "P195"
-        },
-        {
-          "column": "P195_3",
-          "propertyName": "collection",
-          "propertyID": "P195"
-        },
-        {
-          "column": "P189_country",
-          "propertyName": "location of discovery",
-          "propertyID": "P189"
-        },
-        {
-          "column": "P189_place",
-          "propertyName": "location of discovery",
-          "propertyID": "P189"
-        },
-        {
-          "column": "P2043",
-          "propertyName": "length",
-          "propertyID": "P2043"
-        },
-        {
-          "column": "P2048",
-          "propertyName": "height",
-          "propertyID": "P2048"
-        },
-        {
-          "column": "P2049",
-          "propertyName": "width",
-          "propertyID": "P2049"
-        },
-        {
-          "column": "P1684",
-          "propertyName": "inscription",
-          "propertyID": "P1684"
-        },
-        {
-          "column": "P518_I",
-          "propertyName": "applies to part",
-          "propertyID": "P518"
-        },
-        {
-          "column": "P6568_1",
-          "propertyName": "inscription mentions",
-          "propertyID": "P6568"
-        },
-        {
-          "column": "P518_IE1",
-          "propertyName": "applies to part",
-          "propertyID": "P518"
-        },
-        {
-          "column": "P6568_2",
-          "propertyName": "inscription mentions",
-          "propertyID": "P6568"
-        },
-        {
-          "column": "P518_IE2",
-          "propertyName": "p518",
-          "propertyID": "p518"
-        },
-        {
-          "column": "P6568_3",
-          "propertyName": "inscription mentions",
-          "propertyID": "P6568"
-        },
-        {
-          "column": "P518_IE3",
-          "propertyName": "applies to part",
-          "propertyID": "P518"
-        },
-        {
-          "column": "P6568_4",
-          "propertyName": "inscription mentions",
-          "propertyID": "P6568"
-        },
-        {
-          "column": "P518_IE4",
-          "propertyName": "p518",
-          "propertyID": "p518"
-        },
-        {
-          "column": "P6568_5",
-          "propertyName": "inscription mentions",
-          "propertyID": "P6568"
-        },
-        {
-          "column": "P518_IE5",
-          "propertyName": "applies to part",
-          "propertyID": "P518"
-        },
-        {
-          "column": "P5816",
-          "propertyName": "state of conservation",
-          "propertyID": "P5816"
-        }
-      ],
+      "columnDetails": [],
       "limit": 0
     },
     "description": "Reconcile cells in column label_en to type Q2016147"
   },
   {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "label_en",
-    "similarValue": "CIIC 116",
-    "judgment": "matched",
-    "match": {
-      "id": "Q70382438",
-      "name": "CIIC 116",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item CIIC 116 (Q70382438) for cells containing \"CIIC 116\" in column label_en"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "label_en",
-    "similarValue": "CIIC 113",
-    "judgment": "matched",
-    "match": {
-      "id": "Q70382440",
-      "name": "CIIC 113",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item CIIC 113 (Q70382440) for cells containing \"CIIC 113\" in column label_en"
-  },
-  {
     "op": "core/recon-use-values-as-identifiers",
     "engineConfig": {
-      "facets": [],
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
       "mode": "row-based"
     },
     "columnName": "P31",
@@ -3036,7 +56,27 @@
   {
     "op": "core/recon-use-values-as-identifiers",
     "engineConfig": {
-      "facets": [],
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
       "mode": "row-based"
     },
     "columnName": "P361",
@@ -3048,7 +88,27 @@
   {
     "op": "core/recon-use-values-as-identifiers",
     "engineConfig": {
-      "facets": [],
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
       "mode": "row-based"
     },
     "columnName": "P17",
@@ -3060,7 +120,27 @@
   {
     "op": "core/recon-use-values-as-identifiers",
     "engineConfig": {
-      "facets": [],
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
       "mode": "row-based"
     },
     "columnName": "P186",
@@ -3072,7 +152,27 @@
   {
     "op": "core/recon-use-values-as-identifiers",
     "engineConfig": {
-      "facets": [],
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
       "mode": "row-based"
     },
     "columnName": "P195_1",
@@ -3084,199 +184,27 @@
   {
     "op": "core/recon-use-values-as-identifiers",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P195_2",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P195_2"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P195_3",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P195_3"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P189_country",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P189_country"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P189_place",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P189_place"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P518_I",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P518_I"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P6568_1",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P6568_1"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P518_IE1",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P518_IE1"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P6568_2",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P6568_2"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P518_IE2",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P518_IE2"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P6568_3",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P6568_3"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P518_IE3",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P518_IE3"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P6568_4",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P6568_4"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P518_IE4",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P518_IE4"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P6568_5",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P6568_5"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P518_IE5",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P518_IE5"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "P5816",
-    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
-    "identifierSpace": "http://www.wikidata.org/entity/",
-    "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P5816"
-  },
-  {
-    "op": "core/recon-use-values-as-identifiers",
-    "engineConfig": {
-      "facets": [],
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
       "mode": "row-based"
     },
     "columnName": "P248_C1",
@@ -3288,7 +216,59 @@
   {
     "op": "core/recon-use-values-as-identifiers",
     "engineConfig": {
-      "facets": [],
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "P195_2",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P195_2"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
       "mode": "row-based"
     },
     "columnName": "P248_C2",
@@ -3300,140 +280,1293 @@
   {
     "op": "core/recon-use-values-as-identifiers",
     "engineConfig": {
-      "facets": [],
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
       "mode": "row-based"
     },
-    "columnName": "P248_C3",
+    "columnName": "P189_country",
     "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
     "identifierSpace": "http://www.wikidata.org/entity/",
     "schemaSpace": "http://www.wikidata.org/prop/direct/",
-    "description": "Use values as reconciliation identifiers in column P248_C3"
+    "description": "Use values as reconciliation identifiers in column P189_country"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "P189_place",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P189_place"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "P518_I",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P518_I"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "P6568_1",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P6568_1"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "P518_IE1",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P518_IE1"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "P6568_2",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P6568_2"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "P518_IE2",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P518_IE2"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "P6568_3",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P6568_3"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "P518_IE3",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P518_IE3"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "P5816",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P5816"
+  },
+  {
+    "op": "wikidata/save-wikibase-schema",
+    "schema": {
+      "itemDocuments": [
+        {
+          "subject": {
+            "type": "wbitemvariable",
+            "columnName": "label_en"
+          },
+          "nameDescs": [
+            {
+              "name_type": "LABEL",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguagevariable",
+                  "columnName": "lang_en"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "label_en"
+                }
+              }
+            },
+            {
+              "name_type": "DESCRIPTION",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguagevariable",
+                  "columnName": "lang_en"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "description_en"
+                }
+              }
+            },
+            {
+              "name_type": "ALIAS",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguagevariable",
+                  "columnName": "lang_en"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "alias_en"
+                }
+              }
+            },
+            {
+              "name_type": "LABEL",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguagevariable",
+                  "columnName": "lang_de"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "label_de"
+                }
+              }
+            },
+            {
+              "name_type": "DESCRIPTION",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguagevariable",
+                  "columnName": "lang_de"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "description_de"
+                }
+              }
+            },
+            {
+              "name_type": "ALIAS",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguagevariable",
+                  "columnName": "lang_de"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "alias_en2"
+                }
+              }
+            }
+          ],
+          "statementGroups": [
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P31",
+                "label": "instance of",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P31"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P361",
+                "label": "part of",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P361"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70873595",
+                            "label": "Ogi Ogam Project"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P17",
+                "label": "country",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P17"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P625",
+                "label": "coordinate location",
+                "datatype": "globe-coordinate"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wblocationvariable",
+                    "columnName": "P625"
+                  },
+                  "qualifiers": [
+                    {
+                      "prop": {
+                        "type": "wbpropconstant",
+                        "pid": "P2868",
+                        "label": "subject has role",
+                        "datatype": "wikibase-item"
+                      },
+                      "value": {
+                        "type": "wbitemconstant",
+                        "qid": "Q839954",
+                        "label": "archaeological site"
+                      }
+                    }
+                  ],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P186",
+                "label": "material used",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P186"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P195",
+                "label": "collection",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P195_1"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemvariable",
+                            "columnName": "P248_C1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P195",
+                "label": "collection",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P195_2"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemvariable",
+                            "columnName": "P248_C2"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P195",
+                "label": "collection",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P195_3"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemvariable",
+                            "columnName": "P248_C3"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P189",
+                "label": "location of discovery",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P189_place"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P189",
+                "label": "location of discovery",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P189_country"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P2043",
+                "label": "length",
+                "datatype": "quantity"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbquantityexpr",
+                    "amount": {
+                      "type": "wbstringvariable",
+                      "columnName": "P2043"
+                    },
+                    "unit": {
+                      "type": "wbitemconstant",
+                      "qid": "Q174728",
+                      "label": "centimetre"
+                    }
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P2048",
+                "label": "height",
+                "datatype": "quantity"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbquantityexpr",
+                    "amount": {
+                      "type": "wbstringvariable",
+                      "columnName": "P2048"
+                    },
+                    "unit": {
+                      "type": "wbitemconstant",
+                      "qid": "Q174728",
+                      "label": "centimetre"
+                    }
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P2049",
+                "label": "width",
+                "datatype": "quantity"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbquantityexpr",
+                    "amount": {
+                      "type": "wbstringvariable",
+                      "columnName": "P2049"
+                    },
+                    "unit": {
+                      "type": "wbitemconstant",
+                      "qid": "Q174728",
+                      "label": "centimetre"
+                    }
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P1684",
+                "label": "inscription",
+                "datatype": "monolingualtext"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbmonolingualexpr",
+                    "language": {
+                      "type": "wblanguageconstant",
+                      "id": "ga",
+                      "label": "ga"
+                    },
+                    "value": {
+                      "type": "wbstringvariable",
+                      "columnName": "P1684"
+                    }
+                  },
+                  "qualifiers": [
+                    {
+                      "prop": {
+                        "type": "wbpropconstant",
+                        "pid": "P518",
+                        "label": "applies to part",
+                        "datatype": "wikibase-item"
+                      },
+                      "value": {
+                        "type": "wbitemvariable",
+                        "columnName": "P518_I"
+                      }
+                    }
+                  ],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P6568",
+                "label": "inscription mentions",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P6568_1"
+                  },
+                  "qualifiers": [
+                    {
+                      "prop": {
+                        "type": "wbpropconstant",
+                        "pid": "P518",
+                        "label": "applies to part",
+                        "datatype": "wikibase-item"
+                      },
+                      "value": {
+                        "type": "wbitemvariable",
+                        "columnName": "P518_IE1"
+                      }
+                    }
+                  ],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P6568",
+                "label": "inscription mentions",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P6568_2"
+                  },
+                  "qualifiers": [
+                    {
+                      "prop": {
+                        "type": "wbpropconstant",
+                        "pid": "P518",
+                        "label": "applies to part",
+                        "datatype": "wikibase-item"
+                      },
+                      "value": {
+                        "type": "wbitemvariable",
+                        "columnName": "P518_IE2"
+                      }
+                    }
+                  ],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P6568",
+                "label": "inscription mentions",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P6568_3"
+                  },
+                  "qualifiers": [
+                    {
+                      "prop": {
+                        "type": "wbpropconstant",
+                        "pid": "P518",
+                        "label": "applies to part",
+                        "datatype": "wikibase-item"
+                      },
+                      "value": {
+                        "type": "wbitemvariable",
+                        "columnName": "P518_IE3"
+                      }
+                    }
+                  ],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P6568",
+                "label": "inscription mentions",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P6568_4"
+                  },
+                  "qualifiers": [
+                    {
+                      "prop": {
+                        "type": "wbpropconstant",
+                        "pid": "P518",
+                        "label": "applies to part",
+                        "datatype": "wikibase-item"
+                      },
+                      "value": {
+                        "type": "wbitemvariable",
+                        "columnName": "P518_IE4"
+                      }
+                    }
+                  ],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P6568",
+                "label": "inscription mentions",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P6568_5"
+                  },
+                  "qualifiers": [
+                    {
+                      "prop": {
+                        "type": "wbpropconstant",
+                        "pid": "P518",
+                        "label": "applies to part",
+                        "datatype": "wikibase-item"
+                      },
+                      "value": {
+                        "type": "wbitemvariable",
+                        "columnName": "P518_IE5"
+                      }
+                    }
+                  ],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P5816",
+                "label": "state of conservation",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P5816"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70256237",
+                            "label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save Wikibase schema"
   },
   {
     "op": "wikidata/perform-wikibase-edits",
     "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "summary": "edit https://github.com/ogi-ogham/ogham-wikidata/commit/ea07ca999cc8fdb0dfa66e6a027fd965915f6319",
-    "description": "Perform Wikibase edits"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "label_en",
-    "similarValue": "CIIC 81",
-    "judgment": "matched",
-    "match": {
-      "id": "Q69385424",
-      "name": "CIIC 81",
-      "types": [
-        ""
+      "facets": [
+        {
+          "type": "list",
+          "name": "label_en: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "label_en",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
       ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item CIIC 81 (Q69385424) for cells containing \"CIIC 81\" in column label_en"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
       "mode": "row-based"
     },
-    "columnName": "label_en",
-    "similarValue": "CIIC 117",
-    "judgment": "matched",
-    "match": {
-      "id": "Q69385241",
-      "name": "CIIC 117",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item CIIC 117 (Q69385241) for cells containing \"CIIC 117\" in column label_en"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "label_en",
-    "similarValue": "CIIC 115",
-    "judgment": "matched",
-    "match": {
-      "id": "Q69383434",
-      "name": "CIIC 115",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item CIIC 115 (Q69383434) for cells containing \"CIIC 115\" in column label_en"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "label_en",
-    "similarValue": "CIIC 103",
-    "judgment": "matched",
-    "match": {
-      "id": "Q69377850",
-      "name": "CIIC 103",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item CIIC 103 (Q69377850) for cells containing \"CIIC 103\" in column label_en"
-  },
-  {
-    "op": "wikidata/perform-wikibase-edits",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "summary": "update with https://github.com/ogi-ogham/ogham-wikidata/commit/a5a0929336dded3af48b8949dc38c3869aa86523",
-    "description": "Perform Wikibase edits"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "label_en",
-    "similarValue": "CIIC 154",
-    "judgment": "matched",
-    "match": {
-      "id": "Q68002826",
-      "name": "CIIC 154",
-      "types": [
-        ""
-      ],
-      "score": 100
-    },
-    "shareNewTopics": false,
-    "description": "Match item CIIC 154 (Q68002826) for cells containing \"CIIC 154\" in column label_en"
-  },
-  {
-    "op": "wikidata/perform-wikibase-edits",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "summary": "update https://github.com/ogi-ogham/ogham-wikidata/commit/12b85a4ed878e2d39ab9c51def5e125d12967f9e",
+    "summary": "update ogam stones",
     "description": "Perform Wikibase edits"
   }
 ]
