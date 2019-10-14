@@ -1,0 +1,483 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label_en",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2016147",
+        "name": "ogham stone"
+      },
+      "autoMatch": true,
+      "columnDetails": [
+        {
+          "column": "P31",
+          "propertyName": "instance of",
+          "propertyID": "P31"
+        },
+        {
+          "column": "P361",
+          "propertyName": "part of",
+          "propertyID": "P361"
+        },
+        {
+          "column": "P17",
+          "propertyName": "country",
+          "propertyID": "P17"
+        },
+        {
+          "column": "P625",
+          "propertyName": "coordinate location",
+          "propertyID": "P625"
+        },
+        {
+          "column": "P186",
+          "propertyName": "material used",
+          "propertyID": "P186"
+        },
+        {
+          "column": "P195_1",
+          "propertyName": "collection",
+          "propertyID": "P195"
+        },
+        {
+          "column": "P195_2",
+          "propertyName": "collection",
+          "propertyID": "P195"
+        },
+        {
+          "column": "P195_3",
+          "propertyName": "collection",
+          "propertyID": "P195"
+        },
+        {
+          "column": "P189_country",
+          "propertyName": "location of discovery",
+          "propertyID": "P189"
+        },
+        {
+          "column": "P189_place",
+          "propertyName": "location of discovery",
+          "propertyID": "P189"
+        },
+        {
+          "column": "P2043",
+          "propertyName": "length",
+          "propertyID": "P2043"
+        },
+        {
+          "column": "P2048",
+          "propertyName": "height",
+          "propertyID": "P2048"
+        },
+        {
+          "column": "P2049",
+          "propertyName": "width",
+          "propertyID": "P2049"
+        },
+        {
+          "column": "P1684",
+          "propertyName": "inscription",
+          "propertyID": "P1684"
+        },
+        {
+          "column": "P518_I",
+          "propertyName": "applies to part",
+          "propertyID": "P518"
+        },
+        {
+          "column": "P6568_1",
+          "propertyName": "inscription mentions",
+          "propertyID": "P6568"
+        },
+        {
+          "column": "P518_IE1",
+          "propertyName": "applies to part",
+          "propertyID": "P518"
+        },
+        {
+          "column": "P6568_2",
+          "propertyName": "inscription mentions",
+          "propertyID": "P6568"
+        },
+        {
+          "column": "P518_IE2",
+          "propertyName": "p518",
+          "propertyID": "p518"
+        },
+        {
+          "column": "P6568_3",
+          "propertyName": "inscription mentions",
+          "propertyID": "P6568"
+        },
+        {
+          "column": "P518_IE3",
+          "propertyName": "applies to part",
+          "propertyID": "P518"
+        },
+        {
+          "column": "P6568_4",
+          "propertyName": "inscription mentions",
+          "propertyID": "P6568"
+        },
+        {
+          "column": "P518_IE4",
+          "propertyName": "p518",
+          "propertyID": "p518"
+        },
+        {
+          "column": "P6568_5",
+          "propertyName": "inscription mentions",
+          "propertyID": "P6568"
+        },
+        {
+          "column": "P518_IE5",
+          "propertyName": "applies to part",
+          "propertyID": "P518"
+        },
+        {
+          "column": "P5816",
+          "propertyName": "state of conservation",
+          "propertyID": "P5816"
+        }
+      ],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column label_en to type Q2016147"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label_en",
+    "similarValue": "CIIC 116",
+    "judgment": "matched",
+    "match": {
+      "id": "Q70382438",
+      "name": "CIIC 116",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item CIIC 116 (Q70382438) for cells containing \"CIIC 116\" in column label_en"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label_en",
+    "similarValue": "CIIC 113",
+    "judgment": "matched",
+    "match": {
+      "id": "Q70382440",
+      "name": "CIIC 113",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item CIIC 113 (Q70382440) for cells containing \"CIIC 113\" in column label_en"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P31",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P31"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P361",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P361"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P17",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P17"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P186",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P186"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P195_1",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P195_1"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P195_2",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P195_2"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P195_3",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P195_3"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P189_country",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P189_country"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P189_place",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P189_place"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P518_I",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P518_I"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P6568_1",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P6568_1"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P518_IE1",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P518_IE1"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P6568_2",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P6568_2"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P518_IE2",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P518_IE2"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P6568_3",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P6568_3"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P518_IE3",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P518_IE3"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P6568_4",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P6568_4"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P518_IE4",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P518_IE4"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P6568_5",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P6568_5"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P518_IE5",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P518_IE5"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P5816",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P5816"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P248_C1",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P248_C1"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P248_C2",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P248_C2"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P248_C3",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P248_C3"
+  }
+]
