@@ -19,3 +19,7 @@
 16. Daten kontrollieren --> `Issues` und `Preview`
 17. Daten mit `Extensions/Wikidata` --> `Update edits to Wikidata` mit einer commit message (edit summary, z.B. History der Github TSV Datei https://github.com/ogi-ogham/ogham-wikidata/commit/ea07ca999cc8fdb0dfa66e6a027fd965915f6319) nach Wikidata laden
 18. wenn erfolgreich unter `Undo/Redo` und --> `Extract` das JSON in die OpenRefine-Datei spiechern
+
+## Koordinaten
+
+https://www.gpskoordinaten.de/gps-koordinaten-konverter
