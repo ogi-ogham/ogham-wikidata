@@ -1,0 +1,485 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q2151232",
+        "name": "townland"
+      },
+      "autoMatch": true,
+      "columnDetails": [
+        {
+          "column": "P31",
+          "propertyName": "instance of",
+          "propertyID": "P31"
+        },
+        {
+          "column": "P17",
+          "propertyName": "country",
+          "propertyID": "P17"
+        },
+        {
+          "column": "P131_county",
+          "propertyName": "located in the administrative territorial entity",
+          "propertyID": "P131"
+        },
+        {
+          "column": "P131_barony",
+          "propertyName": "located in the administrative territorial entity",
+          "propertyID": "P131"
+        },
+        {
+          "column": "P131_civilparish",
+          "propertyName": "located in the administrative territorial entity",
+          "propertyID": "P131"
+        },
+        {
+          "column": "P131_electoraldevision",
+          "propertyName": "located in the administrative territorial entity",
+          "propertyID": "P131"
+        },
+        {
+          "column": "P625",
+          "propertyName": "coordinate location",
+          "propertyID": "P625"
+        },
+        {
+          "column": "P402",
+          "propertyName": "OSM relation ID",
+          "propertyID": "P402"
+        }
+      ],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column label to type Q2151232"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P31",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P31"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P17",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P17"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P131_county",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P131_county"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P131_barony",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P131_barony"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P131_civilparish",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P131_civilparish"
+  },
+  {
+    "op": "core/recon-use-values-as-identifiers",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "P131_electoraldevision",
+    "service": "https://tools.wmflabs.org/openrefine-wikidata/en/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "description": "Use values as reconciliation identifiers in column P131_electoraldevision"
+  },
+  {
+    "op": "wikidata/save-wikibase-schema",
+    "schema": {
+      "itemDocuments": [
+        {
+          "subject": {
+            "type": "wbitemvariable",
+            "columnName": "label"
+          },
+          "nameDescs": [
+            {
+              "name_type": "LABEL",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguagevariable",
+                  "columnName": "lang"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "label"
+                }
+              }
+            },
+            {
+              "name_type": "DESCRIPTION",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguagevariable",
+                  "columnName": "lang"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "description"
+                }
+              }
+            },
+            {
+              "name_type": "ALIAS",
+              "value": {
+                "type": "wbmonolingualexpr",
+                "language": {
+                  "type": "wblanguagevariable",
+                  "columnName": "lang"
+                },
+                "value": {
+                  "type": "wbstringvariable",
+                  "columnName": "alias"
+                }
+              }
+            }
+          ],
+          "statementGroups": [
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P31",
+                "label": "instance of",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P31"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70851365",
+                            "label": "Irish Townlands"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P17",
+                "label": "country",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P17"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70851365",
+                            "label": "Irish Townlands"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P131",
+                "label": "located in the administrative territorial entity",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P131"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70851365",
+                            "label": "Irish Townlands"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P131",
+                "label": "located in the administrative territorial entity",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P1312"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70851365",
+                            "label": "Irish Townlands"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P131",
+                "label": "located in the administrative territorial entity",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P1313"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70851365",
+                            "label": "Irish Townlands"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P131",
+                "label": "located in the administrative territorial entity",
+                "datatype": "wikibase-item"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbitemvariable",
+                    "columnName": "P1314"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70851365",
+                            "label": "Irish Townlands"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P625",
+                "label": "coordinate location",
+                "datatype": "globe-coordinate"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wblocationvariable",
+                    "columnName": "P625"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70851365",
+                            "label": "Irish Townlands"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "property": {
+                "type": "wbpropconstant",
+                "pid": "P402",
+                "label": "OSM relation ID",
+                "datatype": "external-id"
+              },
+              "statements": [
+                {
+                  "value": {
+                    "type": "wbstringvariable",
+                    "columnName": "P402"
+                  },
+                  "qualifiers": [],
+                  "references": [
+                    {
+                      "snaks": [
+                        {
+                          "prop": {
+                            "type": "wbpropconstant",
+                            "pid": "P248",
+                            "label": "stated in",
+                            "datatype": "wikibase-item"
+                          },
+                          "value": {
+                            "type": "wbitemconstant",
+                            "qid": "Q70851365",
+                            "label": "Irish Townlands"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save Wikibase schema"
+  }
+]
