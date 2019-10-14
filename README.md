@@ -69,7 +69,7 @@ SELECT * WHERE {
 } ORDER BY ?label
 ```
 
-## Stones in Ireland
+## Stones in Ireland (CIIC 1 - CIIC 317)
 
 | Stone | WIKIDATA |
 |-------|----------|
@@ -88,30 +88,30 @@ SELECT * WHERE {
 | CIIC 113 | 5 | https://www.wikidata.org/wiki/Q70382440 |
 | CIIC 116 | 6 | https://www.wikidata.org/wiki/Q70382438 |
 
-### Stones in Scotland
+### Stones in Wales (CIIC 318 - CIIC 456)
 
 | Stone | WIKIDATA |
 |-------|----------|
-| CIIC 506 | https://www.wikidata.org/wiki/Q69386261 |
+| CIIC 426 | https://www.wikidata.org/wiki/Q69389329 |
 
-### Stones at the Isle of Man
+### Stones in England (CIIC 457 - CIIC 500)
+
+| Stone | WIKIDATA |
+|-------|----------|
+| CIIC 489 | https://www.wikidata.org/wiki/Q69389090 |
+
+### Stones at the Isle of Man (CIIC 501 - CIIC 507)
 
 | Stone | WIKIDATA |
 |-------|----------|
 | CIIC 503 | https://www.wikidata.org/wiki/Q69388030 |
 | CIIC 504 | https://www.wikidata.org/wiki/Q69388229 |
 
-### Stones in England
+### Stones in Scotland (CIIC 508 - CIIC 520)
 
 | Stone | WIKIDATA |
 |-------|----------|
-| CIIC 489 | https://www.wikidata.org/wiki/Q69389090 |
-
-### Stones in Wales
-
-| Stone | WIKIDATA |
-|-------|----------|
-| CIIC 426 | https://www.wikidata.org/wiki/Q69389329 |
+| CIIC 506 | https://www.wikidata.org/wiki/Q69386261 |
 
 ### SPARQL queries
 
