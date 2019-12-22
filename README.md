@@ -9,6 +9,7 @@
 | Ogham Word | https://www.wikidata.org/wiki/Q67384733 |
 | Ogham formular word | https://www.wikidata.org/wiki/Q67381377 |
 | Ogham nomenclature word | https://www.wikidata.org/wiki/Q67382150 |
+| Ogham Name | https://www.wikidata.org/wiki/Q79401991 |
 | Ogham Stone  | https://www.wikidata.org/wiki/Q2016147 |
 
 ## formular words
