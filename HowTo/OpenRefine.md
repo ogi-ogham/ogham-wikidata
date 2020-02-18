@@ -17,8 +17,14 @@
 15. JSON Inhalt der OpenRefine-Datei (z.B. OgamStones_OpenRefine.json) kopieren, im Feld einfügen und auf `Perform Operations`  klicken
 16. unter label_en "matches" auswählen
 16. Daten kontrollieren --> `Issues` und `Preview`
-17. Daten mit `Extensions/Wikidata` --> `Update edits to Wikidata` mit einer commit message (edit summary, z.B. History der Github TSV Datei https://github.com/ogi-ogham/ogham-wikidata/commit/ea07ca999cc8fdb0dfa66e6a027fd965915f6319) nach Wikidata laden
-18. wenn erfolgreich unter `Undo/Redo` und --> `Extract` das JSON in die OpenRefine-Datei spiechern
+
+## WIkidata QuickStatements
+
+* Wikidata -> `Export to Qick Statements`
+* https://tools.wmflabs.org/quickstatements/#/
+* Neuer Stapel
+* Anweisungen importieren
+* Import
 
 ## Koordinaten
 
