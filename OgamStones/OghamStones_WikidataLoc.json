@@ -18,76 +18,6 @@
 					"columnName": "label_en"
 				}
 			}
-		}, {
-			"name_type": "DESCRIPTION",
-			"value": {
-				"type": "wbmonolingualexpr",
-				"language": {
-					"type": "wblanguageconstant",
-					"id": "en",
-					"label": "en"
-				},
-				"value": {
-					"type": "wbstringvariable",
-					"columnName": "description_en"
-				}
-			}
-		}, {
-			"name_type": "ALIAS",
-			"value": {
-				"type": "wbmonolingualexpr",
-				"language": {
-					"type": "wblanguageconstant",
-					"id": "en",
-					"label": "en"
-				},
-				"value": {
-					"type": "wbstringvariable",
-					"columnName": "alias_en"
-				}
-			}
-		}, {
-			"name_type": "LABEL",
-			"value": {
-				"type": "wbmonolingualexpr",
-				"language": {
-					"type": "wblanguageconstant",
-					"id": "de",
-					"label": "de"
-				},
-				"value": {
-					"type": "wbstringvariable",
-					"columnName": "label_de"
-				}
-			}
-		}, {
-			"name_type": "DESCRIPTION",
-			"value": {
-				"type": "wbmonolingualexpr",
-				"language": {
-					"type": "wblanguageconstant",
-					"id": "de",
-					"label": "de"
-				},
-				"value": {
-					"type": "wbstringvariable",
-					"columnName": "description_de"
-				}
-			}
-		}, {
-			"name_type": "ALIAS",
-			"value": {
-				"type": "wbmonolingualexpr",
-				"language": {
-					"type": "wblanguageconstant",
-					"id": "de",
-					"label": "de"
-				},
-				"value": {
-					"type": "wbstringvariable",
-					"columnName": "alias_de"
-				}
-			}
 		}],
 		"statementGroups": [{
 			"property": {
@@ -263,47 +193,6 @@
 					"value": {
 						"type": "wbitemvariable",
 						"columnName": "P518_I"
-					}
-				}],
-				"references": [{
-					"snaks": [{
-						"prop": {
-							"type": "wbpropconstant",
-							"pid": "P248",
-							"label": "stated in",
-							"datatype": "wikibase-item"
-						},
-						"value": {
-							"type": "wbitemconstant",
-							"qid": "Q70256237",
-							"label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
-						}
-					}]
-				}]
-			}]
-		}, {
-			"property": {
-				"type": "wbpropconstant",
-				"pid": "P1545",
-				"label": "series ordinal",
-				"datatype": "string"
-			},
-			"statements": [{
-				"value": {
-					"type": "wbstringvariable",
-					"columnName": "P1545_ciic"
-				},
-				"qualifiers": [{
-					"prop": {
-						"type": "wbpropconstant",
-						"pid": "P1013",
-						"label": "criterion used",
-						"datatype": "wikibase-item"
-					},
-					"value": {
-						"type": "wbitemconstant",
-						"qid": "Q70256237",
-						"label": "Corpus Inscriptionum Insularum Celticarum Vol.1"
 					}
 				}],
 				"references": [{
